@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var  num1 int
+	var num2 int
+	var suma int
+    num1 = 1;
+	num2 = 4;
+
+	// Sumar los dos números
+	suma = num1 + num2;
+
+	// Mostrar el resultado
+	fmt.Println("La suma de \"HOLA SOY ANGEL\" ", num1, "y", num2, "es:", suma)
+}

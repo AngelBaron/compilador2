@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var  num1 int =6;
+	var num2 int =6;
+	var suma int;
+	var xd string ="hola";
+
+	
+	// Sumar los dos números
+	suma = num1 + num2;
+
+	// Mostrar el resultado
+	fmt.Println("La suma de \"hola \" ", num1, "y", num2, "es:", suma,xd)
+}
